@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-Peer-to-Peer-Rentals"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x1032f2236d3112903c3f4a39443d4fef2b8563ec7fbaa4de9dae3d2d0fa8c973"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
